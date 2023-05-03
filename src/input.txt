@@ -1,0 +1,14 @@
+The stack restricts access to its entries. A client can look at or remove only the top
+entry. The only way to look at an entry that is not at the top of the stack is to
+repeatedly remove items from the stack until the desired item reaches the top. If you
+were to remove all of a stack’s entries, one by one, you would get them in reverse
+chronological order, beginning with the most recent and ending with the first item
+added to the stack.
+
+5.2 The operation that adds an entry to a stack is traditionally called push . The remove
+operation is pop . The operation that retrieves the top entry without removing it is
+named peek . Typically, you cannot search a stack! for a particular entry. The
+following specifications define a set of operations for the ADT stack.
+
+1. However, the Java Class Library has a class of stacks that does define a search method, as you will see later in this
+chapter.
