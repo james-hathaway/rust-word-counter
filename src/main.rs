@@ -6,7 +6,7 @@ use regex::Regex;
 
 fn main() {
     // constant variable to hold the path to the input file
-    const file_path: &str = "/Users/jameshathaway/Desktop/Rust/rust_wordcounter/word-count/src/main.rs";
+    const file_path: &str = "";
     // Read the contents of the file into a string variable
     let text = std::fs::read_to_string(file_path).expect("Failed to read file");
     // here I am matching any alpha-numeric letters
